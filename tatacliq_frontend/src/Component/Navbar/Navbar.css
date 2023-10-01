@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100%;
+    height: 11vh;
+    background-color: rgb(51, 52, 54);
+    top: 0;
+}
+#inner_navbar{
+    width: 65%;
+    height: 100%;
+    border: 1px solid white;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    width: 9%;
+    height: 80%;
+    border: 1px solid red;
+    margin-top: 9px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+#right{
+    width: 90%;
+    height: 100%;
+    border: 1px solid red;
+}
+#right_top{
+    width: 100%;
+    height: 4vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#right_top p{
+    margin-left: 5px;
+}
+#right_top span{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+#right_top>span>p:nth-child(6){
+    position: relative;
+}
+#right_down{
+    width: 100%;
+    height: 6.5vh;
+    border: 1px solid red;
+    display: flex;
+}
+#right_down_first{
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+   
+}
+.cate_brand{
+    width: 45%;
+    height: 100%;
+    background: transparent;
+    /* color: black; */
+    padding-top:15px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#search {
+    width: 65%;
+    height: 100%;
+    /* border: 3px solid green; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* padding-left: 5px; */
+}
+
+#search>div>i {
+    position: absolute;
+    top: 17px;
+    left: 10px;
+    color: rgb(144, 144, 144);
+}
+
+#search>div>input {
+    width: 700px;
+    height: 40px;
+    padding-left: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(97, 96, 96);
+}
+
+::placeholder {
+    color: rgb(144, 144, 144);
+}
+
+#down_third {
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tata_cart {
+    width: 25%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+.tata_cart>img {
+    width: 100%;
+    height: 100%;
+    /* color: white; */
+}
+
+/* SignupDropDown */
+#signup_dd{
+    width: 12%;
+    border: 1px solid red;
+    position: absolute;
+    background-color: white;
+    top: 29px;
+    left: 70%;
+}
+#login_btn{
+    width: 60%;
+    height: 4vh;
+    background-color: red;
+    padding-top: 5px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+}
+.list{
+    width: 90%;
+    height: 4vh;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list>div:nth-child(1){
+    width: 15%;
+    height: 80%;
+    /* border: 1px solid red; */
+    /* padding-top: 3px; */
+}
+.list>div:nth-child(1)>img {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.list>div:nth-child(2){
+    width: 85%;
+    height: 80%;
+    /* border: 1px solid red; */
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Register Page */
+
+#register_page{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: hsla(240, 100%, 50%, 10%);
+    position: absolute;
+    top: 0;
+}
+
+#register_form{
+    width: 25%;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    border-radius: 15px;
+}
+#register_top{
+    width: 99%;
+    height: 3vh;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+#register_middle{
+    width: 65%;
+    height: 15vh;
+    margin: auto;
+    margin-top: 14px;
+    /* border: 1px solid red; */
+}
+#register_middle p:nth-child(1){
+    font-size: 36px;
+    font-weight: 700;
+}
+#register_middle p:nth-child(2){
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#register_middle p:nth-child(3){
+    font-size: 20px;
+    color: lightgray;
+}
+.register_field{
+    width: 70%;
+    /* border: 1px solid gray; */
+    margin: auto;
+    text-align: left;
+    color: lightgray;
+    margin-top: 10px;
+}
+
+.register_field input,select{
+    width: 100%;
+    height: 3vh;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px lightgray;
+}
+.register_field select{
+    color: gray;
+    font-size: 18px;
+}
+#tandp{
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+}
+#register_btn{
+    width: 65%;
+    height: 5vh;
+    margin: auto;
+    margin-top: 15px;
+}
+#register_btn input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+#register_form p{
+    margin-bottom: 15px;
+}
+
+/* Category_DropDown */
+#cate_dd{
+    width: 15%;
+    background-color: white;
+    position: absolute;
+    top: 10.9%;
+    left: 23.9%;
+    border: 1px solid red;
+}
