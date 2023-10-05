@@ -221,14 +221,14 @@ const Navbar = () => {
                         </div>
                     </div>
                     {/* {state?.user?.name && */}
-                        <div className="list">
-                            <div>
-                                <img src='https://www.tatacliq.com/src/general/components/img/settingsblack.svg' />
-                            </div>
-                            <div onClick={logout()}>
-                                <span>Logout</span>
-                            </div>
+                    <div className="list">
+                        <div>
+                            <img src='https://www.tatacliq.com/src/general/components/img/settingsblack.svg' />
                         </div>
+                        <div onClick={logout()}>
+                            <span>Logout</span>
+                        </div>
+                    </div>
                     {/* } */}
                 </div>
             }
@@ -316,10 +316,11 @@ const Navbar = () => {
                 </div>
             }
             {/* Category Dropdown */}
-            {/* {cate_dd &&
+            {cate_dd &&
                 <div id='cate_dd' onMouseEnter={cate_ddfalldown} onMouseLeave={cate_ddfallup} style={{ backgroundColor: backGround ? "white" : "black", color: color ? "black" : "white" }}>
                     All Category
-                </div>} */}
+                </div>
+            }
         </div>
     )
 }
